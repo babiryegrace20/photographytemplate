@@ -1,0 +1,9 @@
+#div1{
+  background-image: url(assets/images/Rectangle112.svg);
+}
+
+.form-control{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
