@@ -1,44 +1,43 @@
-body{
+body {
   font: Roboto sans-serif;
 }
 
-#image 
-{ 
-position: relative; /* To help the image + text element to get along with the rest of the page*/ 
-width: 100%; /* for IE 6 */ 
-} 
-h2 
-{ 
-position: absolute; /* To place the text on the image*/
-top: 300px; /* The exact location of the text from the top of the image*/
- /* Other beautification stuff */
-width: 100%; 
+#image {
+  position: relative; /* To help the image + text element to get along with the rest of the page*/
+  width: 100%; /* for IE 6 */
+}
+h2 {
+  position: absolute; /* To place the text on the image*/
+  top: 300px; /* The exact location of the text from the top of the image*/
+  /* Other beautification stuff */
+  width: 100%;
 }
 /* Coloring time */
-h2 /* decorating the text within the span tag */
-{ 
-color: white; 
-font: Roboto, Sans-Serif;  
-padding: 10px; 
-margin-left: 600px;
-font-weight: 500px;
+h2 /* decorating the text within the span tag */ {
+  color: white;
+  font: Roboto, Sans-Serif;
+  padding: 10px;
+  margin-left: 400px;
+  font-weight: 500px;
 }
-h2 span.spacer { padding:0 5px; } /* to pad the background color of text to make it look more elegant */
+h2 span.spacer {
+  padding: 0 5px;
+} /* to pad the background color of text to make it look more elegant */
 
-.form-control{
+.form-control {
   border-top: none;
   border-left: none;
   border-right: none;
 }
 
-.discover{
+.discover {
   color: white;
   position: absolute;
-  top: 650px;
-  margin-left: 700px;
+  top: 500px;
+  margin-left: 500px;
 }
-#vector{
+#vector {
   position: absolute;
-  top: 700px;
-  margin-left: 750px;
+  top: 530px;
+  margin-left: 550px;
 }
