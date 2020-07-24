@@ -1,9 +1,23 @@
-#div1{
+body {
+  font: Roboto sans-serif;
+}
+
+#div1 {
   background-image: url(assets/images/Rectangle112.svg);
 }
 
-.form-control{
+.form-control {
   border-top: none;
   border-left: none;
   border-right: none;
+}
+@media (min-width: 769px) {
+  #carouselExampleControls {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  #grid {
+    display: none;
+  }
 }
