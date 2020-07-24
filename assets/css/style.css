@@ -2,6 +2,10 @@ body {
   font: Roboto sans-serif;
 }
 
+#image1{
+background-image: url(assets/images/Rectangle112.svg);
+background-size: cover;
+}
 #image {
   position: relative; /* To help the image + text element to get along with the rest of the page*/
   width: 100%; /* for IE 6 */
@@ -11,6 +15,9 @@ h2 {
   top: 300px; /* The exact location of the text from the top of the image*/
   /* Other beautification stuff */
   width: 100%;
+  transform: translate (-50%,-50%)
+  left:50%
+  right:50%
 }
 /* Coloring time */
 h2 /* decorating the text within the span tag */ {
@@ -41,4 +48,15 @@ h2 span.spacer {
   top: 530px;
   margin-left: 550px;
   width: 100%;
+}
+
+@media(min-width:769px){
+  #carouselExampleControls{
+    display: none;
+  }
+}
+@media(max-width:768px){
+  #grid{
+    display: none;
+  }
 }
